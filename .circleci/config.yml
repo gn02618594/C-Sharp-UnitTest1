@@ -8,9 +8,6 @@
      executor: win/default     
     
      steps:
-       - run:            
-         command: $(echo hello | Out-Host; $?) -and $(echo world | Out-Host; $?)
-         shell: powershell.exe
       - run:
          command: echo hello && echo world
          shell: bash.exe
