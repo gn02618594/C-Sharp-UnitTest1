@@ -9,4 +9,4 @@
     
      steps:
       - run:
-         shell: chrome.exe
+         shell: "C:\Program Files (x86)\Google\Chrome\Application\chrome.exe"
