@@ -8,8 +8,6 @@
      executor: win/default     
     
      steps:
-       - checkout
-       - run: dotnet build
        - run:            
          command: $(echo hello | Out-Host; $?) -and $(echo world | Out-Host; $?)
          shell: powershell.exe
