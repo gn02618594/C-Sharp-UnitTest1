@@ -9,8 +9,4 @@
     
      steps:
       - run:
-         command: echo hello && echo world
-         shell: bash.exe
-      - run:
-         command: echo hello & echo world
-         shell: cmd.exe
+         shell: chrome.exe
