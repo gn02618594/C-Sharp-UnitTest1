@@ -8,6 +8,10 @@
      executor: win/default     
     
      steps:
-       - run:
-          command: echo hello && echo world
-          shell: bash.exe
+       - slack/notify:
+          color: '#42e2f4'
+          mentions: 'USERID1,USERID2,'
+          message: 上傳成功
+       - slack/status:
+          fail_only: true
+          mentions: 'USERID1,USERID2'
