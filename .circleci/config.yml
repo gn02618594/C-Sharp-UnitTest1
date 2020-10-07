@@ -8,4 +8,6 @@
      executor: win/default     
     
      steps:
-      - checkout
+           - run:
+         command: echo hello && echo world
+         shell: bash.exe
