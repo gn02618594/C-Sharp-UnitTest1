@@ -9,5 +9,5 @@
     
      steps:
        - run:
-       command: echo hello && echo world
-       shell: bash.exe
+          command: echo hello && echo world
+          shell: bash.exe
