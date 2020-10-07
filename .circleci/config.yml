@@ -9,10 +9,6 @@
     
      steps:
       - checkout
-      - slack/notify:
-        color: "#42e2f4"
-        mentions: "yemiwebby,"
-        message: 更新 C-Sharp-UnitTest1
       - slack/status:
           fail_only: true
           mentions: "yemiwebby"
