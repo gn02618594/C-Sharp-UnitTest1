@@ -10,10 +10,10 @@
      steps:
        - slack/notify:
           color: '#42e2f4'
-          mentions: 'USERID1,USERID2,'
+          mentions: 'JQ'
           message: 上傳成功
           webhook: https://hooks.slack.com/services/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
        - slack/status:
           fail_only: true
-          mentions: 'USERID1,USERID2'
+          mentions: 'JQ'
           webhook: https://hooks.slack.com/services/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
