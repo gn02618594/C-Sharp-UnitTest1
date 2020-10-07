@@ -7,9 +7,8 @@
    build:
      executor: win/default     
     
-     steps:
-      - run:
+     steps:    
       - slack/notify:
-        color: "red"
+        color: "#42e2f4"
         mentions: "yemiwebby,"
         message: 更新 C-Sharp-UnitTest1
