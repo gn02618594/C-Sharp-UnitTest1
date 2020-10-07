@@ -9,7 +9,3 @@
     
      steps:
       - checkout
-      - slack/notify:
-          color: '#42e2f4'
-          mentions: 'USERID1,USERID2,'
-          message: This is a custom message notification
